@@ -1,0 +1,44 @@
+.copy_right_footer {
+    position:fixed;
+    color: coral;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: aliceblue;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(151, 149, 149);
+    }
+
+ body{
+  background-color: aqua;   
+ }
+
+ h1{
+ color:rgb(178, 34, 34);
+ background-color: yellow;    
+ }
+
+ 
+
+ #show_sketch{
+ float: right;    
+ }
+ canvas{
+border:5px solid whitesmoke ;
+border-radius: 20px;    
+animation-name:sunset;
+animation-duration: 4s;
+margin-top: 100px;
+animation-iteration-count: infinite;
+ }
+
+ @keyframes  sunset{
+    from{box-shadow: 60px -16px teal;}
+    to{box-shadow: 60px -16px gold;} 
+ }
+
+ p{
+ padding-top: 10px;   
+ font-size: 25px; 
+ }
